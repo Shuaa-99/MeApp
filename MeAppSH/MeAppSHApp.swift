@@ -11,7 +11,7 @@ import SwiftUI
 struct MeAppSHApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShuaaView()
         }
     }
 }

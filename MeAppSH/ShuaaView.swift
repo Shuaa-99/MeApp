@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ShuaaView: View {
     var body: some View {
     ZStack{
         LinearGradient(gradient: Gradient(colors: [.white,.purple]), startPoint: .topLeading, endPoint: .bottomLeading)
@@ -46,7 +46,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
 static var previews: some View {
 
-    ContentView()
+    ShuaaView()
 }
 }
 
