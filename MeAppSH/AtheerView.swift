@@ -59,7 +59,7 @@ struct AtheerView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AtheerView_Previews: PreviewProvider {
     static var previews: some View {
         AtheerView()
     }
