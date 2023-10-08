@@ -9,16 +9,44 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+    ZStack{
+        LinearGradient(gradient: Gradient(colors: [.white,.purple]), startPoint: .topLeading, endPoint: .bottomLeading)
+            .edgesIgnoringSafeArea(.all)
+    VStack {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+        Image( "image")
+            .resizable()
+            .frame(width: 150, height: 150, alignment: .bottom)
+            .foregroundColor(Color.black)
+            .clipShape(Circle())
+            Spacer()
+            Text("Shuaa Almarwani")
+                .foregroundColor(Color.white)
+                .font(Font.custom("Arial", size: 38))
+            Spacer()
+            Text("Hi، this is shuaa page .I'm 24 years old,One of my favorite hobbies is reading books. I love the Harry Potter and Lord of the Rings movie series.also I love codingApps Developer |👾🪐✨☕️🍃")
+            
+                .foregroundColor(Color.white)
+                .font(Font.custom("Arial", size: 25))
+            
+                .padding(.trailing)
+
+
+                
+    }.padding()
+    Spacer()
+    Spacer()
+    }.padding(.all)
+}
+}
 }
 
-#Preview {
+
+struct ContentView_Previews: PreviewProvider {
+static var previews: some View {
+
     ContentView()
 }
+}
+
