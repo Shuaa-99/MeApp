@@ -28,7 +28,7 @@ struct FayzahView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FayzahView_Previews: PreviewProvider {
     static var previews: some View {
         FayzahView()
     }

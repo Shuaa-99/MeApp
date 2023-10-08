@@ -24,8 +24,11 @@ struct ShuaaView: View {
             Text("Shuaa Almarwani")
                 .foregroundColor(Color.white)
                 .font(Font.custom("Arial", size: 38))
+            Text("Apps Developer |👾🪐✨☕️🍃")
+                .font(.subheadline)
+                .foregroundColor(.gray)
             Spacer()
-            Text("Hi، this is shuaa page .I'm 24 years old,One of my favorite hobbies is reading books. I love the Harry Potter and Lord of the Rings movie series.also I love codingApps Developer |👾🪐✨☕️🍃")
+            Text("Hi، this is shuaa page .I'm 24 years old,One of my favorite hobbies is reading books. I love the Harry Potter and Lord of the Rings movie series.also I love coding ")
             
                 .foregroundColor(Color.white)
                 .font(Font.custom("Arial", size: 25))
